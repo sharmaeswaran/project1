@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+
+.navbar {
+    background-color: #333; /* Align content to the right */
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline;
+    margin-left: 20px; /* Adjust margin to provide space between menu items */
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+
+.navbar {
+    background-color: #333; /* Set background color */
+     /* Add padding for better aesthetics */
+  }
+  
+  ul {
+    list-style-type: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+  }
+  
+  li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add spacing between menu items */
+  }
+  
+  a {
+    text-decoration: none; /* Remove underlines from links */
+    color: white; /* Set text color */
+    font-weight: bold; /* Make text bold */
+  }
+.container1{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    
+}
+.container1 div{
+    width: 50%;
+    height: 100%;
+}
+.container1-content,.container1-imgbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+     
+    
+
+}
+section{
+    width: 100vw;
+    height: 100vh;
+}
+
+.container2{
+  background-color: #ecdcdc;
+    padding: 30px 0px;
+  
+
+}
+.container2-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+.container2 .img2{
+  display: flex;
+  justify-content: center;
+}
+.container2 .img2 img{
+  width: 80%;
+  height: 600px;
+}
+button{
+  width: 170px;
+  height: 40px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: white;
+}
+
+
+.main{
+  display: flex;
+}
+
+.women1{
+  align-content: end;
+}
+
+.button1{
+  align-items: left;
+}
+
+.container3{
+  background-color: #ecdcdc;
+  padding: 30px 0px;
+  
+
+}
+.container3-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+}
+
+.grid{
+  display: grid;
+  grid-template-columns: 18rem 18rem 18rem 18rem;
+  gap: 30px;
+}
+.grid .card div:nth-child(1){
+  background-color: blue;
+  padding: 30px 20px;
+  
+}
+
+.grid i{
+ font-size: 50px;
+ color: white;
+}
